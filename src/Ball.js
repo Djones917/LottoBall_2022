@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import "./Ball.css";
 
 class Ball extends Component {
     render() {
@@ -7,3 +8,5 @@ class Ball extends Component {
         )
     }
 }
+
+export default Ball;
