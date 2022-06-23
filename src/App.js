@@ -1,8 +1,12 @@
+import logo from './logosvg';
+import './App.css';
+import Ball from './Ball';
+
 class App extends Component {
   render() {
     return (
       <div className="App">
-        
+        <Ball num={17}/>
       </div>
     );
   }
