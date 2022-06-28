@@ -6,6 +6,10 @@ class Lottery extends Component {
         maxBalls: 6,
         maxNum: 40
     }
+    constructor() {
+        super(props);
+        this.state = {nums: []};
+    }
 }
 
 export default Lottery;
