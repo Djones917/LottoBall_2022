@@ -10,6 +10,13 @@ class Lottery extends Component {
         super(props);
         this.state = {nums: []};
     }
+    render() {
+        return (
+            <section className="Lottery">
+                
+            </section>
+        )
+    }
 }
 
 export default Lottery;
