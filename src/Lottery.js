@@ -13,7 +13,10 @@ class Lottery extends Component {
     render() {
         return (
             <section className="Lottery">
-                
+                <h1>{this.props.title}</h1>
+              <div>
+                Balls go here!
+              </div>  
             </section>
         )
     }
