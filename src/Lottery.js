@@ -17,6 +17,7 @@ class Lottery extends Component {
               <div>
                 Balls go here!
               </div>  
+              <button onClick={this.handleClick}></button>
             </section>
         )
     }
