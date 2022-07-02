@@ -8,10 +8,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Ball num={17} />
-        <Ball num={1} />
-        <Ball num={40} />
-        <Ball num={27} />
+        <lottery />
       </div>
     );
   }
