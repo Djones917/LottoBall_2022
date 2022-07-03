@@ -6,7 +6,7 @@ class Lottery extends Component {
         maxBalls: 6,
         maxNum: 40
     }
-    constructor() {
+    constructor(props) {
         super(props);
         this.state = {nums: Array.from({length: this.props.maxBalls})};
     }
